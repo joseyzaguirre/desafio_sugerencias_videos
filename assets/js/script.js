@@ -38,8 +38,10 @@ musica.setInicio("600");
 musica.playMultimedia();
 
 const peliculas = new Reproductor("https://www.youtube.com/embed/tRdBZgHxg2M","peliculas");
+peliculas.setInicio("600")
 peliculas.playMultimedia();
 
 const series = new Reproductor("https://www.youtube.com/embed/AE-RP7_USjM","series");
+series.setInicio("20")
 series.playMultimedia();
 
